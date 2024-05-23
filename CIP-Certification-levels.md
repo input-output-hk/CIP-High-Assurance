@@ -1,5 +1,5 @@
 ---
-CIP: 9876543210
+CIP: xxx
 Title: Cardano Certification levels
 Category: Meta
 Status: Draft
