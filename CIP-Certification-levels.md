@@ -220,7 +220,7 @@ The off-chain information shall contain the full evaluation report.
 The certificate shall be issued to the scripts as computed by the automated tool.
 
 
-#### Level 3 - Formal Verification
+### Level 3 - Formal Verification
 
 #### Level 3: Overview
 
