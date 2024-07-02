@@ -99,6 +99,23 @@ Ensure the documentation is up to date and refers to the latest version of the s
 **Objective**: Establish an independent review process to assess software compliance with defined requirements and standards.
 
 ### Presentation of evidence
+**Objective**: Ensure transparent and accessible presentation of evidence. This evidence should be provided on-chain, following a standardized format, to enable any stakeholder to understand the identified threats, mitigations, assumptions, and operational policies as well as to verify that all specified activities have been performed.
+
+#### Evidence Format
+
+**Introduction**: Overview of the software component, including its purpose and scope.
+**Security and Safety Objectives**: Detailed description of the security and safety goals including the assets to be protected.
+**Identified Threats and Feared events**: List of potential security and safety threats or feared events, with detailed descriptions, including the likelihood, the attacker power, the targeted assets.
+**Mitigations and Countermeasures**: Explanation of how each identified threat is mitigated or countered.
+**Assumptions**: Assumptions about the operational environment, including trust assumptions and external dependencies that are used to mitigate threats.
+**Operational Policies**: Policies governing the operation and maintenance of the software, including access control, monitoring, and incident response.
+**Verification of Activities**: Evidence that all specified activities in the Specification section have been performed.
+
+#### Presentation on-chain
+
+Using CIP-68, present the evidence on-chain. A few stakeholders could hold a user token (e.g. dApp operator, any other?). The reference NFT could be held either held at a smart contract, allowing for software and verification updates, or revocation.
+
+TODO: Define the schemas, what is in the datum, what is stored off-chain.
 
 ## Rationale: how does this CIP achieve its goals?
 The proposed framework is designed to enhance the reliability, security, and safety of Cardano software components. By adopting practices from established standards like DO-178C/333, ISO 61508, CENELEC 50128, and Common Criteria, the Cardano ecosystem can leverage proven methodologies to achieve high assurance levels. These standards are widely recognized and have been successfully implemented in industries such as aerospace, automotive, and railway, providing a solid foundation for achieving similar outcomes in blockchain applications. The rationale includes:
