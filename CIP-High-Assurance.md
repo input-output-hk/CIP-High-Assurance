@@ -4,7 +4,7 @@ Title: High Assurance Software
 Category: Meta
 Status: Draft
 Authors:
-Romain Soulat <romain.soulat@iohk.io>
+ - Romain Soulat <romain.soulat@iohk.io>
 [Add your names here]
 Implementers: []
 Discussions:
